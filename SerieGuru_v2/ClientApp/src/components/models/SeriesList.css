@@ -1,0 +1,26 @@
+.searchResultImage, .searchResultTitle {
+    display: inline-block;
+}
+
+.searchResultImage {
+    width: 100px;
+    height: 100px;
+    border-right: red;
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    margin-right: 10px;
+}
+
+.searchResultTitle {
+    margin-right: 1px;
+}
+
+.searchResultTitle :hover {
+    color:red;
+}
+
+.series-list {
+    list-style: none;
+
+}
+

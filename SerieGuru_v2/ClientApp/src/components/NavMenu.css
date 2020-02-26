@@ -1,0 +1,66 @@
+﻿.text-dark {
+  color: white !important;
+}
+
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  color: white;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+input {
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: dimgray;
+  color: black !important;
+  caret-color: black;
+  transition: 0.2s;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+input :empty {
+  color: lightgrey !important;
+}
+
+.searchResult {
+  display: block;
+}
+
+input:focus {
+  background-color: lightgray;
+  color:black !important;
+}
+
+#mainContainer {
+  z-index: 1000;
+  color: white;
+  position: absolute !important;
+}
+
+.search{
+  position: relative;
+}
+
+
+
+#searchDiv {
+  display: block;
+}
+
+

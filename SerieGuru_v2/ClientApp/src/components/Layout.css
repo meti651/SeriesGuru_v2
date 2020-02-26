@@ -1,0 +1,73 @@
+
+
+body {
+    color: white;
+    background-image: url("../images/tv-shows-montage.jpg");
+
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+
+
+.series-list{
+    opacity: 100%;
+    visibility: visible;
+    background: black;
+    min-width: 300px;
+    max-width: 500px;
+    border: 0 solid red;
+    border-right-width: 2px;
+    max-height: 300px;
+    min-height: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 0;
+    position: absolute;
+    z-index: 1000;
+}
+
+.series-list::-webkit-scrollbar {
+    display: none;
+}
+
+.series-list > li > a{
+    color: white;
+}
+
+
+.seriesListItem {
+    color: white;
+}
+
+.seriesListItem :hover {
+    color: red;
+}
+
+.mainSeries {
+    position: relative;
+    top:auto;
+    right: auto;
+    left:0;
+    background-color: black;
+}
+
+.table td {
+    color: white;
+    border-width: 0;
+    width: 25%;
+    transition: 0.4s;
+    box-shadow: 1px 1px darkred;
+}
+
+.table td:hover {
+    background-color: darkslategray;
+}
+
+.videoContainer {
+    justify-content: center;
+}

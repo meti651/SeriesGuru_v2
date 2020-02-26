@@ -1,0 +1,40 @@
+.container {
+    background-color: black;
+}
+
+.titleContainer {
+    font-size: large;
+    font-weight: bold;
+    border-bottom: firebrick;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+}
+
+.serieCard > div, .informationsContainer > div {
+    margin-bottom: 10px;
+}
+
+
+.imageContainer {
+    border-bottom: firebrick;
+    border-width: 0 0 2px 0 !important;
+    border-style: solid;
+    height: 15rem;
+    width: 10rem;
+}
+
+.imageContainer > img {
+    height: 15rem;
+    width: 13rem;
+}
+
+.mainSeriesListItem {
+    color:white !important;
+    text-decoration: none !important;
+}
+
+.mainSeriesListItem :hover, :focus, :visited, :active {
+    color:white !important;
+    text-decoration: none !important;
+}
+
